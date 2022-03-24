@@ -32,13 +32,11 @@ Run the following commands:
 
     sudo apt-get install -y git python3 venv python3-pip
     python3 -m pip install --upgrade pip
-    git clone https://bitbucket.askona.ru/scm/dp/dict-mappings.git
-    cd dict-mappings
+    git clone https://github.com/imeninet/MegaREST.git
+    cd MegaREST
     
     python -m venv venv
     .\venv\Scripts\activate.bat
-    
-    cd mapping_app
 
     pip3 install -r requirements.txt
 
